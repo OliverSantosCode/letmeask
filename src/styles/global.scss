@@ -1,3 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+
 body {
-	background: #436f65;
+	background: #f4f4f5;
+	color: #445544;
+}
+
+body,
+input,
+button,
+textarea {
+	font: 400 16px "Roboto", sans-serif;
 }
