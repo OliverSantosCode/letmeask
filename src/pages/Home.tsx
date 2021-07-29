@@ -3,6 +3,7 @@ import logoImg from "../assets/images/logo.svg";
 import googleIconImg from "../assets/images/google-icon.svg";
 
 import "../styles/auth.scss";
+import { Button } from "../components/Button";
 
 export function Home() {
     return (
@@ -13,21 +14,21 @@ export function Home() {
               <p>Ask your audience questions in real time</p>
             </aside>
             <main>
-                <div>
+                <div className="main-content">
                     <img src={logoImg} alt="Letmeask" />
-                    <button>
+                    <button className="create-room">
                         <img src={googleIconImg} alt="Logo Google" />
                         Create your room with Google
                     </button>
-                    <div>Or enter a room</div>
+                    <div className="separator">Or enter a room</div>
                     <form>
                         <input 
                          type="text" 
                          placeholder="Enter room code"
                         />
-                        <button type="submit">
+                        <Button type="submit">
                             Entre in the room
-                        </button>
+                        </Button>
                     </form>
                     
                 </div>
