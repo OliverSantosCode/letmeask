@@ -2,9 +2,11 @@ import IlustrattionImg from "../assets/images/illustration.svg"
 import logoImg from "../assets/images/logo.svg";
 import googleIconImg from "../assets/images/google-icon.svg";
 
+import "../styles/auth.scss";
+
 export function Home() {
     return (
-        <div>
+        <div id="page-auth">
             <aside>
               <img src={IlustrattionImg} alt="Illustration symbolic questions and answers" />
               <strong>Create live Q&amp;A rooms</strong>
