@@ -92,6 +92,12 @@
 		a {
 			color: #31ec69;
 			text-shadow: 0px 1px 2px #31e4f3;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: #31e;
+			text-shadow: 0px, 1px, 2px #31ec69;
 		}
 	}
 
