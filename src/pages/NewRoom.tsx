@@ -1,5 +1,6 @@
 import IlustrattionImg from "../assets/images/illustration.svg"
 import logoImg from "../assets/images/logo.svg";
+import { Link } from "react-router-dom";
 
 import "../styles/auth.scss";
 import { Button } from "../components/Button";
@@ -25,7 +26,7 @@ export function NewRoom() {
                             Create room
                         </Button>
                     </form>
-                    <p>You want to enter an existing room? <a href="#">Click here!</a></p>
+                    <p>You want to enter an existing room? <Link to="/">Click here!</Link></p>
                 </div>
             </main>
         </div>
