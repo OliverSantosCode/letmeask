@@ -6,7 +6,6 @@ import { Home } from "./pages/Home";
 import { NewRoom } from "./pages/NewRoom";
 
 import "./styles/global.scss";
-import { type } from "os";
 
 type User = {
   id: string;
