@@ -49,7 +49,7 @@
 				padding: 16px;
 				border-radius: 8px;
 				background: #fff;
-				box-shadow: 0 2px 12px #445544;
+				box-shadow: 0 2px 12px #44554433;
 				resize: vertical;
 				min-height: 130px;
 			}
@@ -96,6 +96,10 @@
 					}
 				}
 			}
+		}
+
+		.question-list {
+			margin-top: 32px;
 		}
 	}
 }
