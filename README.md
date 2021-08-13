@@ -15,7 +15,7 @@
 [rocketseat]: https://rocketseat.com.br
 [gitrocketseat]: https://github.com/rocketseat-education/nlw-06-reactjs
 
-### Tecnologias :wrench:
+## Tecnologias :wrench:
 
 <span>Tecnologias utilizadas nesse projeto:</span>
 
@@ -25,7 +25,7 @@
    <li><a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a></li>
 </ul>
 
-### Projeto :computer:
+## Projeto :computer:
 
 <p>Letmeask é um projeto que criadores de conteúdos podem criar salas de Q&A para receber feedback de seu público, de forma muito organizada e democrática.</p>
 <p>Este projeto foi desenvolvido acompanhando a gravação do projeto da <a href="https://nextlevelweek.com/pre-nlw" target="_blank">Next Level Week Together.</a> Apresentada nos dias 20 a 27 de Junho de 2021.</p>
